@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("isbbm\ campus\ homepage\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+  }
+
+  header {
+    background-color: #0f8181;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .preference{
+    
+    color: rgb(62, 69, 45);
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+
+
+  .container{
+   margin-top: 15px; 
+   
+  }
+
+  .options {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    padding-top: 10px;
+    margin: auto;
+  }
+
+  .option {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    
+    padding: 37px;
+    width: 222px;
+    cursor: pointer;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    background-color: #7CBABA
+    
+  }
+  .option:hover{
+    box-shadow: 12px 12px 2px 1px rgba(32, 1, 1, 0.2);
+  }
+  
+
+  .option:hover {
+    background-color: #eee;
+  }
+  

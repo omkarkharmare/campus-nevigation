@@ -1,0 +1,45 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: #225956;
+}
+
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.option{
+    height: 100px;
+    width: 300px;
+    margin: 22px;
+    background-color: #7CBABA;
+    border-radius: 25px;
+    
+}
+
+.option:hover{
+    background-color: #eee;
+}
+.back{
+    background-color:skyblue;
+    height: 40px;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+video{
+    visibility: hidden;
+}
